@@ -1,0 +1,86 @@
+body {
+    /* font-family: Arial, Helvetica, sans-serif;
+     */
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url("https://i.ytimg.com/vi/TpY2dLeIWjs/maxresdefault.jpg");
+    text-align: center;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-size: cover;
+
+    /* display: grid; */
+}
+
+#navBarMobile {
+    background-color: whitesmoke;
+    width: 50%;
+    display: none;
+    align-content: center;
+    text-align: center;
+}
+
+
+
+#appBar:hover #navBarMobile {
+    display: block;
+}
+
+#navBarMobile .navBarLink {
+    text-decoration: none;
+    color: orange;
+}
+
+#navBarMobile .navBarLink:hover {
+    text-decoration: none;
+    color: black;
+    padding: 5;
+    background-color: white;
+    border-radius: 5;
+}
+
+#searchBar {
+    height: 30;
+    width: 80%;
+}
+
+#navList {
+    list-style: none;
+}
+
+#navBarMobile .navBarItem {
+    color: orange;
+    padding: 10;
+    text-align: center;
+}
+
+#navBarMobile .navBarItemWithMenu {
+    padding: 10;
+}
+
+.subMenuLink {
+    text-decoration: none;
+    color: gray;
+    text-align: center;
+    display: inline-block;
+}
+
+#searchBar:hover {
+    border-color: greenyellow;
+    border-radius: 20;
+    border-width: 3px;
+    border-style: solid;
+}
+
+#searchBar:active {
+    border-color: greenyellow;
+    border-radius: 5;
+    border-width: 3px;
+    border-style: solid;
+}
+
+#searchBar:focus {
+    border-color: red;
+    border-radius: 5;
+    border-width: 3px;
+    border-style: solid;
+}
